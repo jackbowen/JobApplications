@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'Latitude';
+    src:  url('assets/Latitude-Regular.woff2') format('woff2'),
+          url('assets/Latitude-Regular.woff') format('woff');
+  }
+
+body {
+    background: #ddd;
+    font-family: 'Latitude', 'Times New Roman', Times, serif;
+}
+
+#main {
+    margin:50px;
+}
+
+p {
+    font-size: 1.4em;
+}
+
+.breakout_info {
+    position: fixed;
+    background: #eee;
+    border: 1px solid black;
+    height: 80vh;
+    bottom: 10vh;
+    right: 10%;
+    width: 80%;
+    overflow: scroll;
+    visibility: hidden;
+}
+
+.breakout_inner {
+    width: 80%;
+    margin: 0 auto;
+    /*background: red;*/
+}
+
+.close_icon {
+    float: right;
+    width: 40px;
+    /*margin-top: 10px;*/
+    /*margin-right: 10px;*/
+    top:11%;
+    right:11%;
+    display: block;
+    cursor: pointer;
+    position: fixed;
+}
+
+.breakout_img {
+    display:block;
+    clear:both;
+    width: 100%;
+    /*margin-top: 10%;*/
+}
+
+.first_breakout_img {
+    margin-top: 10%;
+}
+
+.last_breakout_img {
+    margin-bottom: 10%;
+}
+
+.info_tag {
+    text-decoration: underline;
+    cursor: pointer;
+}
